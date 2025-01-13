@@ -26,7 +26,7 @@
         "USE_EARLYSTOP": "0",
         "USE_FMS": "0",
         "USE_IMU": "0",
-        "USE_QT_UI": "0",
+        "USE_QT_UI": "1",
         "USE_RTSP": "0",
         "USE_WEB_UI": "0"
     },

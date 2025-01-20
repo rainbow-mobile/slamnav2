@@ -1329,7 +1329,7 @@ public:
 
         main_tab->setCurrentIndex(0);
         menu_tab->setCurrentIndex(0);
-        tabWidget->setCurrentIndex(3);
+        tabWidget->setCurrentIndex(0);
         annot_tab->setCurrentIndex(1);
 
 

@@ -1,0 +1,11 @@
+Signal (6) received.
+/home/rainbow/slamnav2/SLAMNAV2(+0x12bb1c) [0x5904dd37db1c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7d83e7442520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c) [0x7d83e74969fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16) [0x7d83e7442476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3) [0x7d83e74287f3]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xa2b9e) [0x7d83e78a2b9e]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae20c) [0x7d83e78ae20c]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae277) [0x7d83e78ae277]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xae4d8) [0x7d83e78ae4d8]
+/home/rainbow/OrbbecSDK/lib/linux_x64/libOrbbecSDK.so.1.10(_ZN2ob17StreamProfileList10getProfileEj+0x358) [0x7d83e9a001c8]

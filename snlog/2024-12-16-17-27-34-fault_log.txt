@@ -1,0 +1,10 @@
+Signal (6) received.
+/home/rainbow/slamnav2/SLAMNAV2(+0x11f38c) [0x63f0731d738c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x717f3aa42520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c) [0x717f3aa969fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16) [0x717f3aa42476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3) [0x717f3aa287f3]
+/home/rainbow/slamnav2/SLAMNAV2(+0x170b4e) [0x63f073228b4e]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xdc253) [0x717f3aedc253]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x717f3aa94ac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x126850) [0x717f3ab26850]

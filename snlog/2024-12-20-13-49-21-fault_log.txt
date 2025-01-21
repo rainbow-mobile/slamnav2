@@ -1,0 +1,4 @@
+Signal (11) received.
+/home/rainbow/slamnav2/SLAMNAV2(+0x120d7c) [0x56c0f20a3d7c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7b41c9e42520]
+[0x56c0f2a75e08]

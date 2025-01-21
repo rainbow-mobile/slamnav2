@@ -1,0 +1,11 @@
+Signal (2) received.
+/home/rainbow/slamnav2/SLAMNAV2(+0x12bb1c) [0x5cdac0767b1c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7e217c242520]
+/lib/x86_64-linux-gnu/libc.so.6(__poll+0x4f) [0x7e217c318bcf]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(+0xab256) [0x7e217c971256]
+/lib/x86_64-linux-gnu/libglib-2.0.so.0(g_main_context_iteration+0x33) [0x7e217c9193e3]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN20QEventDispatcherGlib13processEventsE6QFlagsIN10QEventLoop17ProcessEventsFlagEE+0x68) [0x7e217cd130b8]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN10QEventLoop4execE6QFlagsINS_17ProcessEventsFlagEE+0x12b) [0x7e217ccb875b]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN16QCoreApplication4execEv+0x94) [0x7e217ccc0cf4]
+/home/rainbow/slamnav2/SLAMNAV2(+0x5c7b3) [0x5cdac06987b3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7e217c229d90]

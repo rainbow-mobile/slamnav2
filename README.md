@@ -8,11 +8,13 @@
 ## 설정 방법
 
 ### 1. `.bashrc` 수정
-- `~/.bashrc` 파일을 열어 맨 아래에 다음 경로를 추가하세요:
+- `nano ~/.bashrc` 파일을 열어 맨 아래에 다음 경로를 추가하세요:
 
 ```bash
 export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/lee/rplidar_sdk/output/Linux/Release
 ```
+- `source ~/.bashrc` 를 통해 설정을 적용하세요
+
 
 ### 2. 이더넷 설정
 - PDU와 PC 간 이더넷 설정:

@@ -21,7 +21,7 @@
         "USE_IMU": "0",
         "USE_BLIDAR": "0",
         "USE_BQR": "0",
-        "USE_BEEP": "1",
+        "USE_BEEP": "0",
         "USE_CAM": "1",
         "USE_RTSP": "0",
         "USE_RRS": "1",
@@ -94,7 +94,7 @@
     },
     "obs": {
         "OBS_AVOID": "0",
-        "OBS_DEADZONE": "0.6",
+        "OBS_DEADZONE": "0.7",
         "OBS_LOCAL_GOAL_D": "4.0",
         "OBS_MAP_GRID_SIZE": "0.05",
         "OBS_MAP_MAX_Z": "1.0",
@@ -112,7 +112,7 @@
         "PLATFORM_TYPE": "SRV"
     },
     "lvx": {
-        "LVX_TF": "-0.2079,0.0,1.3079,0.0,0.0,90.0",
+        "LVX_TF": "-0.2079,0.0,1.34,0.0,0.0,90.0",
         "LVX_FRM_DT": "0.1",
         "LVX_MIN_RANGE": "1.0",
         "LVX_MAX_RANGE": "40.0",

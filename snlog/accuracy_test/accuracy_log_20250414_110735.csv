@@ -1,0 +1,2 @@
+timestamp,actual_x,actual_y,actual_theta,target_id,target_name,target_type,target_info,planned_x,planned_y,planned_theta,error_distance,error_angle,cur_ie,cur_ir
+2025-04-14 11:08:12,0.36613,-8.40126,-3.89783,N_1731459887495,N_2,GOAL,,0.385104,-8.47305,0,0.074253,3.89783,0,0

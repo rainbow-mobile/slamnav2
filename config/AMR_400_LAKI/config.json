@@ -9,33 +9,33 @@
         "CAM_TF_1": "0,0,0,0,0,0"
     },
     "control": {
-        "DRIVE_EXTENDED_CONTROL_TIME": "1.0",
+        "DRIVE_EXTENDED_CONTROL_TIME": "4.0",
         "DRIVE_GOAL_APPROACH_GAIN": "1.0",
         "DRIVE_GOAL_D": "0.05",
         "DRIVE_GOAL_TH": "2.0",
-        "DRIVE_V_DEADZONE": "0.02",
-        "DRIVE_W_DEADZONE": "1.0"
+        "DRIVE_V_DEADZONE": "0.002",
+        "DRIVE_W_DEADZONE": "0.2"
     },
     "debug": {
-        "USE_SIM": "0",
-        "USE_IMU": "0",
+        "USE_ARUCO": "0",
+        "USE_BEEP": "1",
         "USE_BLIDAR": "0",
         "USE_BQR": "0",
-        "USE_BEEP": "1",
-        "USE_CAM": "1",
-        "USE_RTSP": "1",
-        "USE_RRS": "1",
-        "USE_FMS": "0",
-        "USE_QTUI": "0",
-        "USE_ARUCO": "0",
-        "USE_EARLYSTOP": "0",
-        "USE_LVX": "0",
+        "USE_CAM": "0",
         "USE_COOP": "0",
-        "USE_MULTI": "0"
+        "USE_EARLYSTOP": "0",
+        "USE_FMS": "0",
+        "USE_IMU": "0",
+        "USE_LVX": "0",
+        "USE_MULTI": "0",
+        "USE_QTUI": "0",
+        "USE_RRS": "1",
+        "USE_RTSP": "0",
+        "USE_SIM": "0"
     },
     "default": {
-        "LIDAR_MIN_RANGE": "1.0",
         "LIDAR_MAX_RANGE": "40.0",
+        "LIDAR_MIN_RANGE": "1.0",
         "LIDAR_TF_B": "-0.32, 0.225, 0.0, 0.0, 0.0, -45.0",
         "LIDAR_TF_F": "0.32, -0.225, 0.0, 0.0, 0.0, 135.0",
         "ROBOT_RADIUS": "0.5",
@@ -47,6 +47,12 @@
         "ROBOT_SIZE_MIN_Z": "0",
         "ROBOT_WHEEL_BASE": "0.511",
         "ROBOT_WHEEL_RADIUS": "0.075"
+    },
+    "docking": {
+        "DOCKING_GOAL_D": "0.05",
+        "DOCKING_GOAL_TH": "0.01745",
+        "DOCKING_POINTDOCK_MARGIN": "0.18",
+        "DOCKING_TYPE": "0"
     },
     "fms": {
         "SERVER_ID": "rainbow",
@@ -66,6 +72,21 @@
         "LOC_ICP_ODO_FUSION_RATIO": "0.5",
         "LOC_SURFEL_NUM": "3",
         "LOC_SURFEL_RANGE": "0.15"
+    },
+    "lvx": {
+        "LVX_COST_THRESHOLD": "1.0",
+        "LVX_FRM_DT": "0.1",
+        "LVX_INLIER_CHECK_DIST": "0.3",
+        "LVX_MAX_FEATURE_NUM": "500",
+        "LVX_MAX_RANGE": "100.0",
+        "LVX_MIN_RANGE": "1.0",
+        "LVX_SURFEL_BALANCE": "0.4",
+        "LVX_SURFEL_NN_NUM": "1",
+        "LVX_SURFEL_RANGE": "1.0",
+        "LVX_TF": "-0.2079,0.0,1.34,0.0,0.0,90.0"
+    },
+    "map": {
+        "MAP_PATH": "/home/rainbow/maps/2025_05_02_10_29_20_252"
     },
     "mapping": {
         "SLAM_ICP_COST_THRESHOLD": "0.5",
@@ -95,7 +116,7 @@
     },
     "obs": {
         "OBS_AVOID": "0",
-        "OBS_DEADZONE_DYN": "0.5",
+        "OBS_DEADZONE_DYN": "0.4",
         "OBS_DEADZONE_VIR": "0.5",
         "OBS_LOCAL_GOAL_D": "4.0",
         "OBS_MAP_GRID_SIZE": "0.05",
@@ -112,26 +133,5 @@
     "robot": {
         "PLATFORM_NAME": "D400_LAKI",
         "PLATFORM_TYPE": "D400"
-    },
-    "docking": {
-    	"DOCKING_POINTDOCK_MARGIN": "0.18",
-    	"DOCKING_GOAL_D": "0.05",
-    	"DOCKING_GOAL_TH": "0.01745",
-    	"DOCKING_TYPE": "0"
-    },
-    "map": {
-        "MAP_PATH": ""
-    },
-    "lvx": {
-        "LVX_TF": "-0.2079,0.0,1.34,0.0,0.0,90.0",
-        "LVX_FRM_DT": "0.1",
-        "LVX_MIN_RANGE": "1.0",
-        "LVX_MAX_RANGE": "100.0",
-        "LVX_MAX_FEATURE_NUM": "500",
-        "LVX_SURFEL_NN_NUM": "1",
-        "LVX_SURFEL_RANGE": "1.0",
-        "LVX_SURFEL_BALANCE": "0.4",
-        "LVX_COST_THRESHOLD": "1.0",
-        "LVX_INLIER_CHECK_DIST": "0.3"        
     }
 }

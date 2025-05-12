@@ -1,0 +1,7 @@
+Signal (11) received.
+./SLAMNAV2(+0x146a5c) [0x5d0a333d8a5c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7cb15c442520]
+./SLAMNAV2(+0x1a31f4) [0x5d0a334351f4]
+/lib/x86_64-linux-gnu/libstdc++.so.6(+0xdc253) [0x7cb15c8dc253]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3) [0x7cb15c494ac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x126850) [0x7cb15c526850]

@@ -1,0 +1,15 @@
+Signal (11) received.
+Signal (11) received.
+Signal (11) received.
+Signal (11) received.
+Signal (11) received.
+./SLAMNAV2(+0x146f5c) [0x5606384ebf5c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7f9f95e42520]
+/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d(+0x2e5ba0) [0x7f9f9cee5ba0]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1bc2bc) [0x7f9f9d3bc2bc]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1b527d) [0x7f9f9d3b527d]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1bdd04) [0x7f9f9d3bdd04]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x2bf15) [0x7f9f9a79bf15]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x2c25c) [0x7f9f9a79c25c]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x259d7) [0x7f9f9a7959d7]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x24078) [0x7f9f9a794078]

@@ -1,0 +1,11 @@
+Signal (6) received.
+./SLAMNAV2_docking(+0x14d511) [0x5ec111ca5511]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7f5107842520]
+/lib/x86_64-linux-gnu/libc.so.6(pthread_kill+0x12c) [0x7f51078969fc]
+/lib/x86_64-linux-gnu/libc.so.6(raise+0x16) [0x7f5107842476]
+/lib/x86_64-linux-gnu/libc.so.6(abort+0xd3) [0x7f51078287f3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x89677) [0x7f5107889677]
+/lib/x86_64-linux-gnu/libc.so.6(__fortify_fail+0x2a) [0x7f510793659a]
+/lib/x86_64-linux-gnu/libc.so.6(+0x136566) [0x7f5107936566]
+./SLAMNAV2_docking(+0x70b90) [0x5ec111bc8b90]
+/lib/x86_64-linux-gnu/libc.so.6(+0x29d90) [0x7f5107829d90]

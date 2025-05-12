@@ -1,0 +1,11 @@
+Signal (11) received.
+./SLAMNAV2_docking(+0x14c5f1) [0x5b387ad455f1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x71a000642520]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZNK14QWidgetPrivate17getOpaqueChildrenEv+0xbe) [0x71a001d9593e]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZNK14QWidgetPrivate22subtractOpaqueChildrenER7QRegionRK5QRect+0x60) [0x71a001d95af0]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN14QWidgetPrivate10drawWidgetEP12QPaintDeviceRK7QRegionRK6QPoint6QFlagsINS_14DrawWidgetFlagEEP8QPainterP21QWidgetRepaintManager+0x4ba) [0x71a001da794a]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x17d9f5) [0x71a001d7d9f5]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x95d) [0x71a001dafc3d]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x83) [0x71a001d6c713]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x13a) [0x71a0010b9e3a]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN23QCoreApplicationPrivate16sendPostedEventsEP7QObjectiP11QThreadData+0x187) [0x71a0010bcf27]

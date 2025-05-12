@@ -1,0 +1,19 @@
+Signal (11) received.
+Signal (11) received.
+Signal (11) received.
+Signal (11) received.
+Signal (11) received.
+./SLAMNAV2(+0x146f5c) [0x649bfc6a4f5c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7da90fe42520]
+/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d(+0x2e5ba0) [0x7da916ee5ba0]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1bc2bc) [0x7da9173bc2bc]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1b527d) [0x7da9173b527d]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1bdd04) [0x7da9173bdd04]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x2bf15) [0x7da9152a6f15]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x2c25c) [0x7da9152a725c]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x259d7) [0x7da9152a09d7]
+/lib/x86_64-linux-gnu/libtbb.so.2(+0x24078) [0x7da91529f078]
+./SLAMNAV2(+0x146f5c) [0x649bfc6a4f5c]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7da90fe42520]
+/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5d(+0x2e5ba4) [0x7da916ee5ba4]
+/lib/x86_64-linux-gnu/libopencv_core.so.4.5d(+0x1bc2bc) [0x7da9173bc2bc]

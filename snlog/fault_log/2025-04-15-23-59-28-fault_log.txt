@@ -1,0 +1,11 @@
+Signal (11) received.
+./SLAMNAV2_docking(+0x14c5f1) [0x652f768b95f1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7d2a40242520]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN14QWidgetPrivate30sendPendingMoveAndResizeEventsEbb+0x96) [0x7d2a419a72b6]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN14QWidgetPrivate15prepareToRenderERK7QRegion6QFlagsIN7QWidget10RenderFlagEE+0x5b) [0x7d2a419ac11b]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN7QWidget6renderEP8QPainterRK6QPointRK7QRegion6QFlagsINS_10RenderFlagEE+0xb8) [0x7d2a419ac7e8]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN7QWidget6renderEP12QPaintDeviceRK6QPointRK7QRegion6QFlagsINS_10RenderFlagEE+0x4b) [0x7d2a419acdbb]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x1acfed) [0x7d2a419acfed]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZNK21QGraphicsEffectSource6pixmapEN2Qt16CoordinateSystemEP6QPointN15QGraphicsEffect13PixmapPadModeE+0x131) [0x7d2a41d26181]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZNK15QGraphicsEffect12sourcePixmapEN2Qt16CoordinateSystemEP6QPointNS_13PixmapPadModeE+0x2d) [0x7d2a41d2631d]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN22QGraphicsOpacityEffect4drawEP8QPainter+0x78) [0x7d2a41d26968]

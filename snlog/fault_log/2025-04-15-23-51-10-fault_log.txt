@@ -1,0 +1,11 @@
+Signal (11) received.
+./SLAMNAV2_docking(+0x14e731) [0x627b74dbc731]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x777ba5c42520]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x17a9e7) [0x777ba737a9e7]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x17cb29) [0x777ba737cb29]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x17d0cb) [0x777ba737d0cb]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN7QWidget5eventEP6QEvent+0x95d) [0x777ba73afc3d]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x83) [0x777ba736c713]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x13a) [0x777ba66b9e3a]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN23QCoreApplicationPrivate16sendPostedEventsEP7QObjectiP11QThreadData+0x187) [0x777ba66bcf27]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(+0x313a67) [0x777ba6713a67]

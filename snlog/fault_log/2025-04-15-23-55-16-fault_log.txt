@@ -1,0 +1,11 @@
+Signal (11) received.
+./SLAMNAV2_docking(+0x14c5f1) [0x59a49017b5f1]
+/lib/x86_64-linux-gnu/libc.so.6(+0x42520) [0x7d834f442520]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZNK11QMetaObject4castEPK7QObject+0x1c) [0x7d834fec2b5c]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_Z23qt_qFindChildren_helperPK7QObjectRK7QStringRK11QMetaObjectP5QListIPvE6QFlagsIN2Qt15FindChildOptionEE+0x7f) [0x7d834feeb69f]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x2cfb27) [0x7d8350ccfb27]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(+0x2d59d6) [0x7d8350cd59d6]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN14QLayoutPrivate8doResizeEv+0x128) [0x7d8350b8c2e8]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN7QLayout8activateEv+0x105) [0x7d8350b8d915]
+/lib/x86_64-linux-gnu/libQt5Widgets.so.5(_ZN19QApplicationPrivate13notify_helperEP7QObjectP6QEvent+0x67) [0x7d8350b6c6f7]
+/lib/x86_64-linux-gnu/libQt5Core.so.5(_ZN16QCoreApplication15notifyInternal2EP7QObjectP6QEvent+0x13a) [0x7d834feb9e3a]

@@ -86,7 +86,7 @@
         "LVX_TF": "-0.2079,0.0,1.34,0.0,0.0,90.0"
     },
     "map": {
-        "MAP_PATH": "/home/rainbow/maps/2025_06_19_09_32_00_770"
+        "MAP_PATH": "/home/rainbow/maps/2025_07_28_20_55_18_814"
     },
     "mapping": {
         "SLAM_ICP_COST_THRESHOLD": "0.5",
@@ -116,7 +116,6 @@
     },
     "obs": {
         "OBS_AVOID": "0",
-        "OBS_DEADZONE": "0.5",
         "OBS_DEADZONE_DYN": "0.5",
         "OBS_DEADZONE_VIR": "0.5",
         "OBS_LOCAL_GOAL_D": "4.0",

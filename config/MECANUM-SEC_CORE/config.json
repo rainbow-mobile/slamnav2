@@ -1,27 +1,27 @@
 {
     "robot": {
-        "PLATFORM_NAME": "S100",
-        "PLATFORM_TYPE": "b",
+        "PLATFORM_NAME": "MECANUM",
+        "PLATFORM_TYPE": "Q150",
         
-        "ROBOT_SIZE_MAX_X": "0.4",
-        "ROBOT_SIZE_MAX_Y": "0.35",
+        "ROBOT_SIZE_MAX_X": "0.34",
+        "ROBOT_SIZE_MAX_Y": "0.30",
         "ROBOT_SIZE_MAX_Z": "0.22",
-        "ROBOT_SIZE_MIN_X": "-0.35",
-        "ROBOT_SIZE_MIN_Y": "-0.35",
+        "ROBOT_SIZE_MIN_X": "-0.34",
+        "ROBOT_SIZE_MIN_Y": "-0.30",
         "ROBOT_SIZE_MIN_Z": "0",
-        "ROBOT_WHEEL_BASE": "0.387",
-        "ROBOT_WHEEL_RADIUS": "0.0635"
+        "ROBOT_WHEEL_BASE": "0.400",
+        "ROBOT_WHEEL_RADIUS": "0.075"
     },
     "sensors": {
-        "USE_LIDAR_2D": true,
-        "LIDAR_2D_TYPE": "RPLIDAR",
-        "LIDAR_2D_NUM": "1",
+        "USE_LIDAR_2D": false,
+        "LIDAR_2D_TYPE": "SICK",
+        "LIDAR_2D_NUM": "2",
         
         "USE_LIDAR_3D": true,
         "LIDAR_3D_TYPE": "LIVOX",
         "LIDAR_3D_NUM": "1",
         
-        "USE_CAM": true,
+        "USE_CAM": false,
         "CAM_TYPE": "ORBBEC",
         "CAM_NUM": "2",
         
@@ -30,7 +30,8 @@
     },
     "localization": {
         "MODE": "3D",
-        "USE_ARUCO": false
+        "USE_ARUCO": false,
+        "USE_EKF": true
     },
     "network": {
         "USE_MULTI": false,
@@ -40,37 +41,38 @@
         "USE_FMS": false
     },
     "debug": {
-        "USE_SIM": false,
+        "USE_SIM": true,
+        "USE_QTUI": false,
         "USE_BEEP": true
     },
     "lidar_2d_config": [
         {
-            "IP": "",
-            "TF": "0.17, 0.0, 0.0, 0.0, 0.0, -178.0"
+            "IP": "192.168.2.10",
+            "TF": "0.360, -0.2228, 0.0, 180.0, 0.0, 45.0"
         },
         {
-            "IP": "",
-            "TF": ""
+            "IP": "192.168.2.11",
+            "TF": "-0.360, 0.2228, 0.0, 180.0, 0.0, -135.0"
         }
     ],
     "lidar_3d_config": [
         {
-            "IP": "192.168.1.100",
-            "TF": "-0.2079,0.0,1.34,0.0,0.0,90.0"
+            "IP": "192.168.1.129",
+            "TF": "0.300, 0.0, 0.240, 0.0, 0.0, 0.0"
         },
         {
-            "IP": "",
-            "TF": ""
+            "IP": "192.168.1.101",
+            "TF": "-0.360, 0.2228, 0.880, 0.0, 0.0, 180.0"
         }
     ],
     "cam_config": [
         {
             "SERIAL_NUMBER": "",
-            "TF": "0.2292,0.0875,0.2,62.0,0.0,115.0"
+            "TF": "0.4,0,0,-90,0,-90"
         },
         {
             "SERIAL_NUMBER": "",
-            "TF": "0.2292,-0.0875,0.2,-62.0,0.0,-115.0"
+            "TF": "0,0,0,0,0,0"
         }
     ],
     "SICK": {
@@ -94,15 +96,15 @@
         "CAM_HEIGHT_MIN": "0.1"
     },
     "motor": {
-        "MOTOR_DIR": "-1",
+        "MOTOR_DIR": "1",
         "MOTOR_GAIN_KD": "100",
         "MOTOR_GAIN_KI": "0",
         "MOTOR_GAIN_KP": "4400",
-        "MOTOR_GEAR_RATIO": "3",
+        "MOTOR_GEAR_RATIO": "12",
         "MOTOR_ID_L": "1",
         "MOTOR_ID_R": "0",
         "MOTOR_LIMIT_V": "2.0",
-        "MOTOR_LIMIT_V_ACC": "1.0",
+        "MOTOR_LIMIT_V_ACC": "2.0",
         "MOTOR_LIMIT_W": "180",
         "MOTOR_LIMIT_W_ACC": "360"
     },
@@ -154,7 +156,7 @@
         "OBS_MAP_GRID_SIZE": "0.05",
         "OBS_MAP_MAX_Z": "1.0",
         "OBS_MAP_MIN_V": "0.3",
-        "OBS_MAP_MIN_Z": "-1.0",
+        "OBS_MAP_MIN_Z": "0.1",
         "OBS_MAP_RANGE": "5.0",
         "OBS_PATH_MARGIN_X": "0.05",
         "OBS_PATH_MARGIN_Y": "0.0",
@@ -172,12 +174,19 @@
     },
     "docking": {
     	"DOCKING_POINTDOCK_MARGIN": "0.18",
-    	"DOCKING_GOAL_D": "0.05",
+    	"DOCKING_GOAL_D": "0.03",
     	"DOCKING_GOAL_TH": "0.01745",
-    	"DOCKING_TYPE": "0"
+    	"DOCKING_TYPE": "0",
+    	"DOCKING_CHG_LENGTH": "0.472",
+    	"DOCKING_K_ALPHA": "4.5",
+    	"DOCKING_K_BETA": "1.5",
+    	"DOCKING_K_RHO": "0.6",
+    	"DOCKING_CLUST_DIST_THRESHOLD_MAX" : "2.5",
+    	"DOCKING_FIND_VMARK_DIST_THRESHOLD_MAX" : "2.5",
+    	"DOCKING_ICP_ERR_THRESHOLD" : "0.003"
     },
     "map": {
-        "MAP_PATH": "/home/juyeon/maps/250411_coop_test"
+        "MAP_PATH": "/home/juyeon/maps/250414_unicos_test"
     }
 }
 

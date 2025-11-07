@@ -164,9 +164,9 @@
     "network": {
         "USE_COOP": false,
         "USE_FMS": false,
-        "USE_MSA": false,
+        "USE_MSA": true,
         "USE_MULTI": false,
-        "USE_RRS": true,
+        "USE_RRS": false,
         "USE_RTSP": false
     },
     "obs": {
@@ -234,5 +234,9 @@
         "USE_IMU": false,
         "USE_LIDAR_2D": false,
         "USE_LIDAR_3D": true
+    },
+    "update":{
+    	"CONFIG": false
     }
+    
 }

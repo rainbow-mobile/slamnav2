@@ -73,11 +73,11 @@
     "lidar_2d_config": [
         {
             "IP": "192.168.2.10",
-            "TF": "0.32, -0.225, 0.0, 180.0, 0.0, 45.0"
+            "TF": "0.32, -0.225, 0.0, 180.0, 0.0, -45.0"
         },
         {
             "IP": "192.168.2.11",
-            "TF": "-0.32, 0.225, 0.0, 0.180, 0.0, -135.0"
+            "TF": "-0.32, 0.225, 0.0, 0.180, 0.0, 135.0"
         }
     ],
     "lidar_3d_config": [
@@ -167,14 +167,14 @@
     "network": {
         "USE_COOP": false,
         "USE_FMS": false,
-        "USE_MSA": false,
+        "USE_MSA": true,
         "USE_MULTI": false,
         "USE_RRS": false,
         "USE_RTSP": false
     },
     "obs": {
         "OBS_AVOID": "0",
-        "OBS_DEADZONE": "0.5",
+        "OBS_DEADZONE": "0.15",
         "OBS_DEADZONE_DYN": "0.5",
         "OBS_DEADZONE_VIR": "0.5",
         "OBS_LOCAL_GOAL_D": "4.0",
@@ -185,7 +185,7 @@
         "OBS_MAP_RANGE": "5.0",
         "OBS_PATH_MARGIN_X": "0.05",
         "OBS_PATH_MARGIN_Y": "0.0",
-        "OBS_PREDICT_TIME": "3.0",
+        "OBS_PREDICT_TIME": "2.0",
         "OBS_SAFE_MARGIN_X": "0.1",
         "OBS_SAFE_MARGIN_Y": "0.1"
     },

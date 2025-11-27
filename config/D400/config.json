@@ -24,7 +24,7 @@
     },
     "cam_config": [
         {
-            "SERIAL_NUMBER": "",
+            "SERIAL_NUMBER": "AY8V743002B,",
             "TF": "0.4,0,0,-90,0,-90"
         },
         {
@@ -46,15 +46,17 @@
         "SERVER_PW": "rainbow",
         "USE_BEEP": true,
         "USE_QTUI": false,
-        "USE_SIM": true
+        "USE_SIM": false
     },
     "docking": {
+        "CHARGE_TYPE": "RAINBOW",
         "DOCKING_CHECK_MOTOR_A": "300.0",
         "DOCKING_CHG_LENGTH": "0.472",
         "DOCKING_CLUST_ANGLE_THRESHOLD": "0.785398",
         "DOCKING_CLUST_DIST_THRESHOLD_MAX": "2.8",
         "DOCKING_DWA_YAW_WEIGTH": "0.25",
         "DOCKING_EXTENDED_CONTROL_TIME": 10,
+        "DOCKING_FIELD": "0",
         "DOCKING_FIND_VMARK_DIST_THRESHOLD_MAX": "2.8",
         "DOCKING_GOAL_D": "0.03",
         "DOCKING_GOAL_TH": "0.005",
@@ -65,19 +67,21 @@
         "DOCKING_KP_th": "0.25",
         "DOCKING_LINEAR_X_OFFSET": "-0.035",
         "DOCKING_POINTDOCK_MARGIN": "0.3",
+        "DOCKING_REVERSE_FLAG": false,
         "DOCKING_TYPE": "0",
         "DOCKING_WAITING_TIME": 10,
         "DOCKING_X_OFFSET": "0.0",
-        "DOCKING_Y_OFFSET": "-0.075"
+        "DOCKING_Y_OFFSET": "-0.075",
+        "XNERGY_SET_CURRENT": "8"
     },
     "lidar_2d_config": [
         {
             "IP": "192.168.2.10",
-            "TF": "0.32, -0.225, 0.0, 180.0, 0.0, -45.0"
+            "TF": "0.32, -0.225, 0.0, 180.0, 0.0, 135.0"
         },
         {
             "IP": "192.168.2.11",
-            "TF": "-0.32, 0.225, 0.0, 0.180, 0.0, 135.0"
+            "TF": "-0.32, 0.225, 0.0, 180.0, 0.0, -45.0"
         }
     ],
     "lidar_3d_config": [
@@ -134,7 +138,7 @@
         "LOG_LEVEL": "info"
     },
     "map": {
-        "MAP_PATH": "/data/maps/250804_unicos_update6_test"
+        "MAP_PATH": "/data/maps/2025_11_20_10_34_22_211"
     },
     "mapping": {
         "SLAM_ICP_COST_THRESHOLD": "0.5",
@@ -174,9 +178,11 @@
     },
     "obs": {
         "OBS_AVOID": "0",
-        "OBS_DEADZONE": "0.15",
+        "OBS_DEADZONE": "0.25",
         "OBS_DEADZONE_DYN": "0.5",
         "OBS_DEADZONE_VIR": "0.5",
+        "OBS_DISTANCE_LED_FAR": "1.5",
+        "OBS_DISTANCE_LED_NEAR": "1",
         "OBS_LOCAL_GOAL_D": "4.0",
         "OBS_MAP_GRID_SIZE": "0.05",
         "OBS_MAP_MAX_Z": "1.0",
@@ -185,7 +191,7 @@
         "OBS_MAP_RANGE": "5.0",
         "OBS_PATH_MARGIN_X": "0.05",
         "OBS_PATH_MARGIN_Y": "0.0",
-        "OBS_PREDICT_TIME": "2.0",
+        "OBS_PREDICT_TIME": "5.0",
         "OBS_SAFE_MARGIN_X": "0.1",
         "OBS_SAFE_MARGIN_Y": "0.1"
     },
@@ -196,6 +202,9 @@
     "robot": {
         "MILEAGE": "1295.031",
         "PLATFORM_TYPE": "D400",
+        "ROBOT_ALARM": true,
+        "ROBOT_ALARM_BAT_CRITICAL": "40",
+        "ROBOT_ALARM_BAT_LOW": "60",
         "ROBOT_LX": 0.5,
         "ROBOT_LY": 0.23,
         "ROBOT_SIZE_ADD_X": 0,
@@ -216,6 +225,10 @@
         "MONITORING_FIELDS": [
         ],
         "MONITORING_FIELD_COUNT": 0,
+        "MONITORING_FIELD_NUM": "0",
+        "MONITORING_PREDICT_T": "5",
+        "MONITORING_TRAJ_DT": "1",
+        "USE_MONITORING_FIELD": false,
         "USE_SAFETY_BUMPER": false,
         "USE_SAFETY_CROSS_MONITOR": false,
         "USE_SAFETY_INTERLOCK": false,
@@ -223,18 +236,25 @@
         "USE_SAFETY_SPEED_CONTROL": false
     },
     "sensors": {
-        "CAM_NUM": "2",
+        "CAM_FILTER_CLUSTER_MIN_SIZE": "20",
+        "CAM_FILTER_ROR_MIN_NEIGHBORS": "5",
+        "CAM_FILTER_ROR_RADIUS": "0.1",
+        "CAM_NUM": "1",
         "CAM_TYPE": "ORBBEC",
         "LIDAR_2D_NUM": "2",
-        "LIDAR_2D_TYPE": "SICK",
+        "LIDAR_2D_TYPE": "LAKI",
         "LIDAR_3D_NUM": "2",
         "LIDAR_3D_TYPE": "LIVOX",
         "USE_BQR": false,
-        "USE_CAM": false,
-        "USE_CAM_DEPTH": false,
+        "USE_CAM": true,
+        "USE_CAM_DEPTH": true,
+        "USE_CAM_FILTER": true,
         "USE_CAM_RGB": true,
         "USE_IMU": false,
         "USE_LIDAR_2D": true,
         "USE_LIDAR_3D": false
+    },
+    "update": {
+        "CONFIG": true
     }
 }

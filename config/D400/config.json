@@ -46,7 +46,7 @@
         "SERVER_PW": "rainbow",
         "USE_BEEP": true,
         "USE_QTUI": false,
-        "USE_SIM": true
+        "USE_SIM": false
     },
     "docking": {
         "DOCKING_CHECK_MOTOR_A": "300.0",
@@ -223,15 +223,15 @@
         "USE_SAFETY_SPEED_CONTROL": false
     },
     "sensors": {
-        "CAM_NUM": "2",
+        "CAM_NUM": "1",
         "CAM_TYPE": "ORBBEC",
         "LIDAR_2D_NUM": "2",
         "LIDAR_2D_TYPE": "SICK",
         "LIDAR_3D_NUM": "2",
         "LIDAR_3D_TYPE": "LIVOX",
         "USE_BQR": false,
-        "USE_CAM": false,
-        "USE_CAM_DEPTH": false,
+        "USE_CAM": true,
+        "USE_CAM_DEPTH": true,
         "USE_CAM_RGB": true,
         "USE_IMU": false,
         "USE_LIDAR_2D": true,

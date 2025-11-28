@@ -236,5 +236,8 @@
         "USE_IMU": false,
         "USE_LIDAR_2D": true,
         "USE_LIDAR_3D": false
+    },
+    "update":{
+    	"CONFIG":true
     }
 }

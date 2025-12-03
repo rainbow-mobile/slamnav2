@@ -1,0 +1,35 @@
+[2025-12-03_13:57:22.466] [info] [MOBILE] simulation mode
+[2025-12-03_13:57:22.466] [info] [LIDAR_2D] simulation mode init
+[2025-12-03_13:57:22.466] [info] [MAIN] Waiting 3 seconds for MOBILE pose collection and triggering auto sync...
+[2025-12-03_13:57:25.468] [info] [LIDAR_2D] simulation mode open
+[2025-12-03_13:57:25.468] [info] [AUTO] /home/rainbow/slamnav2/config/D400/preset_0.json load
+[2025-12-03_13:57:25.468] [info] [AUTO] LIMIT_V :1
+[2025-12-03_13:57:25.468] [info] [AUTO] LIMIT_W :40
+[2025-12-03_13:57:25.468] [info] [AUTO] LIMIT_V_ACC :0.3
+[2025-12-03_13:57:25.468] [info] [AUTO] LIMIT_V_DCC :0.1
+[2025-12-03_13:57:25.468] [info] [AUTO] LIMIT_W_ACC :180
+[2025-12-03_13:57:25.468] [info] [AUTO] LIMIT_PIVOT_W :30
+[2025-12-03_13:57:25.468] [info] [AUTO] ST_V :0.05
+[2025-12-03_13:57:25.468] [info] [AUTO] ED_V :0.05
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_T :0.05
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_H :3
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_A :1
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_B :0.05
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_L :0.5
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_K :1
+[2025-12-03_13:57:25.468] [info] [AUTO] DRIVE_EPS :0.3
+[2025-12-03_13:57:25.468] [info] [RRS] use_rrs = false, skip connect
+[2025-12-03_13:57:25.468] [info] [AUTO] start node loop
+[2025-12-03_13:57:25.468] [info] [AUTO] a loop start
+[2025-12-03_13:57:25.468] [info] [TASK] task init
+[2025-12-03_13:57:25.468] [info] [TASK] Initialized with required modules.
+[2025-12-03_13:57:25.468] [info] [TASK] Pause command received. but not yet
+[2025-12-03_13:57:25.468] [info] [TASK] Cancel command received.
+[2025-12-03_13:57:25.468] [info] [MAIN] [WATCHDOG] loop start
+[2025-12-03_13:57:25.468] [info] [MAIN] [JOG] loop start
+[2025-12-03_13:57:25.498] [info] [UNIMAP(2D)] /data/maps/250804_unicos_update6_test/cloud.csv loaded, map_pts:56042
+[2025-12-03_13:57:25.509] [info] [UNIMAP(2D)] build kdtree for map icp
+[2025-12-03_13:57:25.510] [info] [UNIMAP(2D)] boundary x:(-12.92, 26.23), y:(-25.77, 14.04), z:(-0.50, 0.50)
+[2025-12-03_13:57:25.753] [info] [UNIMAP(3D)] Loaded 453671 points from /data/maps/250804_unicos_update6_test/map.las
+[2025-12-03_13:57:25.760] [info] [UNIMAP] /data/maps/250804_unicos_update6_test/node.json loaded
+[2025-12-03_13:57:25.760] [info] [MAIN] bt_Request

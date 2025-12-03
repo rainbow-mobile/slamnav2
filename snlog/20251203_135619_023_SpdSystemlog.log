@@ -1,0 +1,13 @@
+[2025-12-03_13:56:19.023] [warning] [AUTO] invalid preset path
+[2025-12-03_13:56:19.023] [info] [MOBILE] try connect, ip:192.168.2.100, port:1977
+[2025-12-03_13:56:19.023] [info] [MOBILE] send loop start
+[2025-12-03_13:56:19.023] [info] [RRS] use_rrs = false, skip connect
+[2025-12-03_13:56:19.023] [info] [AUTO] start node loop
+[2025-12-03_13:56:19.023] [info] [AUTO] a loop start
+[2025-12-03_13:56:19.023] [info] [TASK] task init
+[2025-12-03_13:56:19.023] [info] [TASK] Initialized with required modules.
+[2025-12-03_13:56:19.023] [info] [TASK] Pause command received. but not yet
+[2025-12-03_13:56:19.023] [info] [TASK] Cancel command received.
+[2025-12-03_13:56:19.024] [info] [MAIN] bt_Request
+[2025-12-03_13:56:19.024] [info] [MAIN] [JOG] loop start
+[2025-12-03_13:56:19.024] [info] [MAIN] [WATCHDOG] loop start

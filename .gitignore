@@ -1,0 +1,5 @@
+echo "error_logs/" > .gitignore
+
+echo "snlog/" >> .gitignore
+
+echo "config/" >> .gitignore

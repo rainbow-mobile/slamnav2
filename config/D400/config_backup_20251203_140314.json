@@ -238,6 +238,6 @@
         "USE_LIDAR_3D": false
     },
     "update":{
-    	"CONFIG": true
+    	"CONFIG": false
     }
 }

@@ -202,7 +202,7 @@
     "robot": {
         "MILEAGE": "1295.031",
         "PLATFORM_TYPE": "D400",
-        "ROBOT_ALARM": true,
+        "ROBOT_ALARM": false,
         "ROBOT_ALARM_BAT_CRITICAL": "40",
         "ROBOT_ALARM_BAT_LOW": "60",
         "ROBOT_LX": 0.5,
@@ -255,6 +255,6 @@
         "USE_LIDAR_3D": false
     },
     "update": {
-        "CONFIG": true
+        "CONFIG": false
     }
 }

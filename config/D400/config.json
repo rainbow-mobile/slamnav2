@@ -73,7 +73,8 @@
         "DOCKING_WAITING_TIME": 10,
         "DOCKING_X_OFFSET": "0.0",
         "DOCKING_Y_OFFSET": "-0.075",
-        "XNERGY_SET_CURRENT": "8"
+        "XNERGY_SET_CURRENT": "8",
+        "LIDAR_TYPE": "LAKI"
     },
     "lidar_2d_config": [
         {
